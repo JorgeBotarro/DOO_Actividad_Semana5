@@ -1,0 +1,31 @@
+#tipo;rut;nombre;direccion;sueldo;tipoEspecifico
+guia;123456789-k;Juan Perez;Puerto Montt;850000;sitio
+guia;123456789-k;Maria Gonzalez;Valdivia;900000;circuito
+guia;123456789-k;Pedro Ramirez;Coyhaique;780000;traslado
+guia;123456789-k;Ana Torres;Temuco;920000;sitio
+guia;123456789-k;Carlos Munoz;Osorno;880000;circuito
+guia;123456789-k;Laura Silva;Punta Arenas;950000;traslado
+guia;123456789-k;Diego Castro;Puerto Varas;870000;sitio
+guia;123456789-k;Camila Rojas;Ancud;910000;circuito
+guia;123456789-k;Roberto Diaz;Castro;820000;traslado
+guia;123456789-k;Felipe Soto;Chillan;890000;sitio
+operador;123456789-k;Andres Morales;Punta Arenas;980000;vuelos
+operador;123456789-k;Sofia Contreras;Puerto Montt;930000;hoteles
+operador;123456789-k;Miguel Flores;Valdivia;860000;traslados
+operador;123456789-k;Daniela Vega;Temuco;910000;excursiones
+operador;123456789-k;Jorge Herrera;Osorno;890000;entradas
+operador;123456789-k;Paula Navarro;Coyhaique;970000;vuelos
+operador;123456789-k;Sebastian Reyes;Puerto Varas;940000;hoteles
+operador;123456789-k;Fernanda Lopez;Castro;880000;traslados
+operador;123456789-k;Cristian Molina;Ancud;920000;excursiones
+operador;123456789-k;Valentina Ruiz;Chillan;960000;entradas
+transportista;123456789-k;123456789-k;Ricardo Espinoza;Puerto Montt;750000;auto
+transportista;123456789-k;Monica Aguilar;Valdivia;820000;microbus
+transportista;123456789-k;Esteban Vidal;Coyhaique;1050000;bus
+transportista;123456789-k;Gabriela Fuentes;Temuco;780000;auto
+transportista;123456789-k;Patricio Campos;Osorno;890000;microbus
+transportista;123456789-k;Daniela Paredes;Punta Arenas;1150000;bus
+transportista;123456789-k;Hector Sepulveda;Puerto Varas;800000;auto
+transportista;123456789-k;Natalia Carrasco;Castro;870000;microbus
+transportista;123456789-k;Francisco Medina;Ancud;1100000;bus
+transportista;123456789-k;Veronica Salazar;Chillan;760000;auto
