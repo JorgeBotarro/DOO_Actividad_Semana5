@@ -33,6 +33,8 @@ public class LectorArchivos {
                     String[] partes = linea.strip().split(";");
                     String tipo = partes[0].strip().toLowerCase();
 
+                    if (partes.length < 4) { throw new RuntimeException("Linea debe tener al menos 4 partes"); }
+
                     // Obtener todos los valores en comun con trabajador
                     Trabajador t = new Trabajador();
                     t.setRut(partes[1].strip());
@@ -46,18 +48,24 @@ public class LectorArchivos {
                             trabajadores.add(t);
                         } break;
                         case "guia": {
+                            if (partes.length < 5) { throw new RuntimeException("Guia debe tener al menos 5 partes"); }
+
                             Guia guia = new Guia(t);
                             guia.setTipo(TipoGuia.parseTipoGuia(partes[5]));
 
                             trabajadores.add(guia);
                         } break;
                         case "operador": {
+                            if (partes.length < 5) { throw new RuntimeException("Operador debe tener al menos 5 partes"); }
+
                             Operador operador = new Operador(t);
                             operador.setEspecialidad(EspecialidadOperador.parseEspecialidadOperador(partes[5]));
 
                             trabajadores.add(operador);
                         } break;
                         case "transportista": {
+                            if (partes.length < 5) { throw new RuntimeException("Transportista debe tener al menos 5 partes"); }
+
                             Transportista transportista = new Transportista(t);
                             transportista.setTipo(TipoTransportista.parseTipoTransportista(partes[5]));
 
