@@ -9,7 +9,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase de utilidad para la lectura de archivos con trabajadores
+ */
 public class LectorArchivos {
+
+    /**
+     * Dado un archivo estilo csv, extrae una lista de trabajadores
+     * @param rutaArchivo archivo estilo csv con un trabajador por linea.
+     * @return Lista de trabajadores
+     */
     public static List<Trabajador> leer(String rutaArchivo) {
         ArrayList<Trabajador> trabajadores = new ArrayList<>();
 

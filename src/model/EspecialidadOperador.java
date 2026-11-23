@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * Especialidad del Operador Turistico
+ */
 public enum EspecialidadOperador {
     vuelos,
     hoteles,
@@ -7,6 +10,11 @@ public enum EspecialidadOperador {
     excursiones,
     entradas;
 
+    /**
+     * Similar a Double.parseDouble en idea.
+     * @param especialidad representacion textual del enum
+     * @return especialidad
+     */
     public static EspecialidadOperador parseEspecialidadOperador(String especialidad) {
         return switch (especialidad.strip().toLowerCase()) {
             case "vuelos" -> vuelos;
