@@ -19,7 +19,7 @@ operador;123456789-k;Sebastian Reyes;Puerto Varas;940000;hoteles
 operador;123456789-k;Fernanda Lopez;Castro;880000;traslados
 operador;123456789-k;Cristian Molina;Ancud;920000;excursiones
 operador;123456789-k;Valentina Ruiz;Chillan;960000;entradas
-transportista;123456789-k;123456789-k;Ricardo Espinoza;Puerto Montt;750000;auto
+transportista;123456789-k;Ricardo Espinoza;Puerto Montt;750000;auto
 transportista;123456789-k;Monica Aguilar;Valdivia;820000;microbus
 transportista;123456789-k;Esteban Vidal;Coyhaique;1050000;bus
 transportista;123456789-k;Gabriela Fuentes;Temuco;780000;auto

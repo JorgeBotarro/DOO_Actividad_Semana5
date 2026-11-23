@@ -44,30 +44,31 @@ public class LectorArchivos {
                     switch (tipo) {
                         case "trabajador": {
                             trabajadores.add(t);
-                        }
+                        } break;
                         case "guia": {
                             Guia guia = new Guia(t);
                             guia.setTipo(TipoGuia.parseTipoGuia(partes[5]));
 
                             trabajadores.add(guia);
-                        }
+                        } break;
                         case "operador": {
                             Operador operador = new Operador(t);
                             operador.setEspecialidad(EspecialidadOperador.parseEspecialidadOperador(partes[5]));
 
                             trabajadores.add(operador);
-                        }
+                        } break;
                         case "transportista": {
                             Transportista transportista = new Transportista(t);
                             transportista.setTipo(TipoTransportista.parseTipoTransportista(partes[5]));
 
                             trabajadores.add(transportista);
-                        }
+                        } break;
                         default: {
                             throw new IllegalArgumentException("Tipo invalido");
                         }
                     }
                 } catch (IllegalArgumentException e) {
+                    System.out.println(linea);
                     System.out.println("Error: " + e.getMessage());
                 }
             }
